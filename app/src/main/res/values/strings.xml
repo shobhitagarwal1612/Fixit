@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FixIt</string>
+    <string name="fbloginText">SignIn with Facebook</string>
+    <string name="googleloginText">SignIn with Google</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+</resources>
