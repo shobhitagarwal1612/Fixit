@@ -7,6 +7,7 @@ import com.viksaa.sssplash.lib.activity.AwesomeSplash;
 import com.viksaa.sssplash.lib.cnst.Flags;
 import com.viksaa.sssplash.lib.model.ConfigSplash;
 
+import example.com.fixit.LoginActivity;
 import example.com.fixit.MenuActivity;
 import example.com.fixit.R;
 
@@ -40,7 +41,7 @@ public class MainActivity extends AwesomeSplash {
         configSplash.setAnimPathFillingDuration(3000);
         configSplash.setPathSplashFillColor(R.color.colorPrimaryDark); //path object filling color
         //Customize Title
-        configSplash.setTitleSplash("My Awesome App");
+        configSplash.setTitleSplash("FIXIT");
         configSplash.setTitleTextColor(R.color.fillColor);
         configSplash.setTitleTextSize(30f); //float value
         configSplash.setAnimTitleDuration(3000);
@@ -49,7 +50,7 @@ public class MainActivity extends AwesomeSplash {
     }
     @Override
     public void animationsFinished() {
-Intent intent=new Intent(this, MenuActivity.class);
+Intent intent=new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 }
